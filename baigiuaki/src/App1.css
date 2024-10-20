@@ -1,0 +1,48 @@
+.container {
+  background:  rgba(25, 32, 38, 1);
+  width: 1250px;
+  height: 1050px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+}
+
+.giua{
+  width: 1170px;
+  height:400px;
+  color: white;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+
+}
+.giua p{
+  margin-top: 5%;
+  margin-left: 0;
+  width: 571px;
+}
+
+.giua h1{
+  font-size: 36px;
+  margin-top: -15%;
+}
+.cuoi{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+  
+}
+.cuoi h1{
+  color: white;
+}
+.hienthi {
+  display: grid;
+  grid-template-columns: repeat(7,200px);
+
+}
